@@ -1,0 +1,44 @@
+        .date-picker-content {
+            padding: 20px;
+            user-select: none;
+        }
+
+        .date-picker-content .clearfix::after,
+        .date-picker-content .clearfix::before {
+            clear: both;
+            display: block;
+            content: "";
+        }
+
+        .date-picker-content ul,
+        .date-picker-content li {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .date-picker-content li,
+        .date-picker-content p {
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+
+        .date-picker-content p {
+            color: blue;
+        }
+
+        .date-picker-content li {
+            float: left;
+            height: 35px;
+            line-height: 35px;
+            width: calc(100% / 7);
+        }
+
+        .date-picker-content li span:hover {
+            cursor: pointer;
+        }
+
+        .date-picker-content li span.active {
+            color: red;
+        }
